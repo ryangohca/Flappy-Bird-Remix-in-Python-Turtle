@@ -1,5 +1,4 @@
 """A remake of the Flappy Bird Game.
-By: Ryan Goh, Class 2I
 Note that flappy.gif, green_flappy.gif, apple.gif, enchanted_golden_apple.gif
 must be in the same directory as the file for this project to run.
 flappy.gif and green_flappy.gif must be at about 60 * 50 pixels, and
