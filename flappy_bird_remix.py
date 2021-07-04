@@ -272,7 +272,7 @@ def force_move_player():
     # Force the player to move down.
     player.goto(player.xcor(), player.ycor() - gravity_speed)
     player.stamp()
-    gravity_speed *= 1.075 # Increase acceleration
+    gravity_speed *= 1.075 # Increase speed due to acceleration
 
 def add_new_wall(t=4000):
     """Adds a new wall only when t >= 4000. Individual timer tracking needs to be done
