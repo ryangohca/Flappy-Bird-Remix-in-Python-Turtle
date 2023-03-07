@@ -420,5 +420,6 @@ Warning: Do not change the size of the screen!""",
     align='center', font=("Arial", 16, 'normal'))
     screen.onkey(start_game, 'Return')
     decreaseTimeLeft()
-
+    turtle.mainloop()
+    
 introduce_and_start_game()
